@@ -52,3 +52,11 @@ class _ShowHideNameWidgetState extends State<ShowHideNameWidget> {
     );
   }
 }
+//  Die methode toggleName geht auch mit ternary Operator:
+//  void toggleName() {
+//  setState(() {
+//  final istLeer = name.isEmpty;
+//  name = istLeer ? meinName : '';
+//  buttonText = istLeer ? 'Name verstecken' : 'Name anzeigen';
+//  });
+//  }
