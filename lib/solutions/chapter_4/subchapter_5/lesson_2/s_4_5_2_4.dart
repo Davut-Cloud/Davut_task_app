@@ -23,6 +23,7 @@ class _ShowHideNameWidgetState extends State<ShowHideNameWidget> {
   final String meinName = 'Davut Coskun';
 
   void toggleName() {
+    // *
     setState(() {
       if (name.isEmpty) {
         name = meinName;
@@ -52,6 +53,7 @@ class _ShowHideNameWidgetState extends State<ShowHideNameWidget> {
     );
   }
 }
+//*
 //  Die methode toggleName geht auch mit ternary Operator:
 //  void toggleName() {
 //  setState(() {
